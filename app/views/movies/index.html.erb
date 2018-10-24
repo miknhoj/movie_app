@@ -1,1 +1,10 @@
-Movies
+<h1>Movies</h1>
+<hr>
+<% @movies.map do |movie|%>
+  <div>
+    <strong>
+      <%= link_to("#{movie.title}", movie_path(movie))%>
+    </strong>
+  </div>
+<% end %>
+

@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2018_10_24_200854) do
     t.string "title"
     t.string "genre"
     t.integer "year"
-    t.text "synopis"
+    t.text "synopsis"
     t.string "picture"
     t.boolean "favorite"
     t.datetime "created_at", null: false
